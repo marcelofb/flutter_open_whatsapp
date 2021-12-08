@@ -49,7 +49,7 @@ public class FlutterOpenWhatsappPlugin implements MethodCallHandler {
         if (i.resolveActivity(packageManager) != null) {
           context.startActivity(i);
         } else {
-          i.setPackage("com.whatsapp.w4b")
+          i.setPackage("com.whatsapp.w4b");
           if (i.resolveActivity(packageManager) != null) {
             context.startActivity(i);
           }
